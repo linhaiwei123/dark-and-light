@@ -7,7 +7,7 @@ cc.Class({
 
 
     onLoad: function () {
-        cc.director.setClearColor(this.node.color);
+        cc.director.setClearColor(require('clear-color-module').clearColor);
     },
 
 });
