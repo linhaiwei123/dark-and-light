@@ -203,7 +203,8 @@ cc.Class({
             delete other.world.enterAabb;
             delete self.node.enterAabb[other.node.uuid];
             delete this._collisionArray[other.node.uuid];
-        }
+        },
 
+        
 
 });
