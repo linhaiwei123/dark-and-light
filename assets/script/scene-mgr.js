@@ -25,7 +25,10 @@ cc.Class({
         this._starNum--;
         if(this._starNum <= 0 && !this._sceneLoading){
             this._sceneLoading = true;
-            cc.director.loadScene('level-'+ (this.level + 1) +'-scene');
+            //cc.director.loadScene('level-'+ (this.level + 1) +'-scene');
+            window.levelRecord['level-' + this.level] = true;
+            cc.director.loadScene('choose-scene');
+            
         }
     },
 

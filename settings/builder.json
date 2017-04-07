@@ -1,0 +1,24 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.dark-and-light",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "88c7831c-e944-4d00-980b-215158bb20b5",
+  "title": "dark-and-light",
+  "webOrientation": "auto"
+}
