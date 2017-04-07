@@ -40,7 +40,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
-    "_id": "c613c2b7-fdfd-4fec-8392-f112b4d41ef8",
+    "_id": "0d50bcca-a17a-469a-b2ac-9a40750d2b3c",
     "autoReleaseAssets": false
   },
   {
@@ -1661,7 +1661,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "level": 1,
+    "level": 2,
     "_starNum": 0,
     "_sceneLoading": false
   }
