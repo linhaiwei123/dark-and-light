@@ -207,10 +207,11 @@ cc.Class({
         if(other.node.group == 'star'){
             return;
         }
-        if(other.blockArray != undefined){
+        if(other.blockArray != undefined && other.blockArray[self.node.uuid] != undefined){
             for(let item of other.blockArray[self.node.uuid]){
                 this[item]--;
             }
+            delete other.blockArray[self.node.uuid];
         }
     },
 
