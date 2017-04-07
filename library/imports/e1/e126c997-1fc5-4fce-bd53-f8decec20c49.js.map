@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "_destroying",
+    "onLoad",
+    "manager",
+    "director",
+    "getCollisionManager",
+    "enabled",
+    "node",
+    "runAction",
+    "repeatForever",
+    "rotateBy",
+    "easing",
+    "easeSineInOut",
+    "find",
+    "emit",
+    "onCollisionEnter",
+    "other",
+    "self",
+    "group",
+    "destroy"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,qBAAa;AADL,KAHP;;AAOLC,YAAQ,kBAAY;AAChB,YAAIC,UAAUP,GAAGQ,QAAH,CAAYC,mBAAZ,EAAd;AACAF,gBAAQG,OAAR,GAAkB,IAAlB;AACA,aAAKC,IAAL,CAAUC,SAAV,CAAoBZ,GAAGa,aAAH,CAAiBb,GAAGc,QAAH,CAAY,CAAZ,EAAc,GAAd,EAAmBC,MAAnB,CAA0Bf,GAAGgB,aAAH,CAAiB,CAAjB,CAA1B,CAAjB,CAApB;AACAhB,WAAGiB,IAAH,CAAQ,QAAR,EAAkBC,IAAlB,CAAuB,WAAvB;AACH,KAZI;;AAcLC,sBAAkB,0BAASC,KAAT,EAAeC,IAAf,EAAoB;AAClC,YAAGD,MAAMT,IAAN,CAAWW,KAAX,IAAoB,eAAvB,EAAuC;AACnC,gBAAG,CAAC,KAAKjB,WAAT,EAAqB;AACjB,qBAAKA,WAAL,GAAmB,IAAnB;AACAL,mBAAGiB,IAAH,CAAQ,QAAR,EAAkBC,IAAlB,CAAuB,YAAvB;AACA,qBAAKP,IAAL,CAAUY,OAAV;AACH;AACJ;AACJ;;AAtBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        _destroying: false,\r\n    },\r\n\r\n    onLoad: function () {\r\n        let manager = cc.director.getCollisionManager();\r\n        manager.enabled = true;\r\n        this.node.runAction(cc.repeatForever(cc.rotateBy(1,180).easing(cc.easeSineInOut(3))));\r\n        cc.find('Canvas').emit('star-init');\r\n    },\r\n\r\n    onCollisionEnter: function(other,self){\r\n        if(other.node.group == 'player-render'){\r\n            if(!this._destroying){\r\n                this._destroying = true;\r\n                cc.find('Canvas').emit('touch-star');\r\n                this.node.destroy();\r\n            }\r\n        }\r\n    }\r\n\r\n});\r\n"
+  ]
+}

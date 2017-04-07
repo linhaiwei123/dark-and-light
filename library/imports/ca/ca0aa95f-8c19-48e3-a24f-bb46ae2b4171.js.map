@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "StateMachine",
+    "require",
+    "fsmData",
+    "initial",
+    "events",
+    "create",
+    "fsm",
+    "ASYNC",
+    "module",
+    "exports"
+  ],
+  "mappings": ";;AAAA,IAAIA,eAAeC,QAAQ,eAAR,CAAnB;AACA,IAAIC,UAAU;AACdC,WAAS,MADK;AAEd;AACAC,UAAQ,CACR,EAAC,QAAO,SAAR,EAAkB,QAAO,MAAzB,EAAgC,MAAK,QAArC,EADQ,EAER,EAAC,QAAO,OAAR,EAAgB,QAAO,QAAvB,EAAgC,MAAK,UAArC,EAFQ,EAGR,EAAC,QAAO,KAAR,EAAc,QAAO,UAArB,EAAgC,MAAK,QAArC,EAHQ,EAIR,EAAC,QAAO,MAAR,EAAe,QAAO,QAAtB,EAA+B,MAAK,QAApC,EAJQ,EAKR,EAAC,QAAO,MAAR,EAAe,QAAO,UAAtB,EAAiC,MAAK,QAAtC,EALQ;AAHM,CAAd;AAWA,IAAIC,SAAS,SAATA,MAAS,GAAU;AACvB,MAAIC,MAAMN,aAAaK,MAAb,CAAoBH,OAApB,CAAV;AACAI,MAAIC,KAAJ,GAAYP,aAAaO,KAAzB;AACA,SAAOD,GAAP;AACC,CAJD;AAKAE,OAAOC,OAAP,GAAiB,EAACJ,cAAD,EAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "let StateMachine = require('state-machine');\r\nlet fsmData = {\r\ninitial: 'nope',\r\n//please select the enter-state here ↓\r\nevents: [\r\n{\"name\":\"startup\",\"from\":\"nope\",\"to\":\"flying\"},\r\n{\"name\":\"ready\",\"from\":\"idling\",\"to\":\"readying\"},\r\n{\"name\":\"fly\",\"from\":\"readying\",\"to\":\"flying\"},\r\n{\"name\":\"idle\",\"from\":\"flying\",\"to\":\"idling\"},\r\n{\"name\":\"idle\",\"from\":\"readying\",\"to\":\"idling\"},\r\n]\r\n};\r\nlet create = function(){\r\nlet fsm = StateMachine.create(fsmData);\r\nfsm.ASYNC = StateMachine.ASYNC;\r\nreturn fsm;\r\n}\r\nmodule.exports = {create}"
+  ]
+}

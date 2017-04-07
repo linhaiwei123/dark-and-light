@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "module",
+    "exports",
+    "clearColor",
+    "cc",
+    "hexToColor"
+  ],
+  "mappings": ";;AAAAA,OAAOC,OAAP,GAAiB;AACbC,gBAAYC,GAAGC,UAAH,CAAc,SAAd;AADC,CAAjB",
+  "file": "unknown",
+  "sourcesContent": [
+    "module.exports = {\r\n    clearColor: cc.hexToColor('#CA6DE0')\r\n}"
+  ]
+}

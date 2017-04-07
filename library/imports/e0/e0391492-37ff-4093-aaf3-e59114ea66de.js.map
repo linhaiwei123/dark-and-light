@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "director",
+    "setClearColor",
+    "require",
+    "clearColor"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY,EAHP;;AAQLC,YAAQ,kBAAY;AAChBL,WAAGM,QAAH,CAAYC,aAAZ,CAA0BC,QAAQ,oBAAR,EAA8BC,UAAxD;AACH;;AAVI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        \r\n    },\r\n\r\n\r\n    onLoad: function () {\r\n        cc.director.setClearColor(require('clear-color-module').clearColor);\r\n    },\r\n\r\n});\r\n"
+  ]
+}
