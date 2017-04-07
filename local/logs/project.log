@@ -1,0 +1,65 @@
+2017-04-07T02:03:07.406Z - normal: Load ~/.CocosCreator/settings.json
+2017-04-07T02:03:07.412Z - normal: checking language setting...
+2017-04-07T02:03:07.413Z - normal: Language: zh
+2017-04-07T02:03:09.544Z - success: protocol editor-framework registered
+2017-04-07T02:03:09.544Z - success: protocol app registered
+2017-04-07T02:03:09.544Z - success: protocol theme registered
+2017-04-07T02:03:09.544Z - success: protocol profile registered
+2017-04-07T02:03:09.545Z - success: protocol packages registered
+2017-04-07T02:03:09.545Z - success: protocol unpack registerred
+2017-04-07T02:03:09.545Z - success: protocol disable-commonjs registerred
+2017-04-07T02:03:09.841Z - normal: connected!
+2017-04-07T02:03:09.851Z - normal: Check project C:\Users\guangjixinxi-html\Desktop\1
+2017-04-07T02:03:09.859Z - normal: Initializing Cocos2d
+2017-04-07T02:03:10.619Z - normal: Initializing Asset Database
+2017-04-07T02:03:10.689Z - success: protocol uuid registerred
+2017-04-07T02:03:10.689Z - success: protocol db registerred
+2017-04-07T02:03:10.689Z - success: protocol thumbnail registerred
+2017-04-07T02:03:10.690Z - normal: Loading editor/builtin packages
+2017-04-07T02:03:10.911Z - success: assets loaded
+2017-04-07T02:03:10.913Z - success: builder loaded
+2017-04-07T02:03:10.916Z - success: hierarchy loaded
+2017-04-07T02:03:10.920Z - success: inspector loaded
+2017-04-07T02:03:10.927Z - success: keystore loaded
+2017-04-07T02:03:10.930Z - success: node-library loaded
+2017-04-07T02:03:10.932Z - success: preferences loaded
+2017-04-07T02:03:10.946Z - success: project-importer loaded
+2017-04-07T02:03:10.948Z - success: project-settings loaded
+2017-04-07T02:03:10.964Z - success: ui-kit loaded
+2017-04-07T02:03:10.970Z - success: ui-grid loaded
+2017-04-07T02:03:10.974Z - success: scene loaded
+2017-04-07T02:03:10.974Z - success: sprite-editor loaded
+2017-04-07T02:03:11.152Z - success: store loaded
+2017-04-07T02:03:11.166Z - success: timeline loaded
+2017-04-07T02:03:11.167Z - normal: Loading builtin packages
+2017-04-07T02:03:11.184Z - success: anysdk loaded
+2017-04-07T02:03:11.193Z - success: asset-db-debugger loaded
+2017-04-07T02:03:11.195Z - success: code-editor loaded
+2017-04-07T02:03:11.201Z - success: color-picker loaded
+2017-04-07T02:03:11.206Z - success: console loaded
+2017-04-07T02:03:11.209Z - success: package-manager loaded
+2017-04-07T02:03:11.213Z - success: tester loaded
+2017-04-07T02:03:11.215Z - success: ui-kit-preview-extra loaded
+2017-04-07T02:03:11.216Z - success: ui-kit-preview loaded
+2017-04-07T02:03:11.219Z - success: ui-tree loaded
+2017-04-07T02:03:11.305Z - normal: Initializing project C:\Users\guangjixinxi-html\Desktop\1
+2017-04-07T02:03:11.308Z - normal: Loading packages
+2017-04-07T02:03:11.371Z - failed: Failed to load package at C:\Users\guangjixinxi-html\.CocosCreator\packages\helloworld: Failed to load main.js: Error: Cannot find module 'base64-node'
+    at Module._resolveFilename (module.js:455:15)
+    at Function.Module._resolveFilename (D:\ccc\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._load (module.js:403:25)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\guangjixinxi-html\.CocosCreator\packages\helloworld\main.js:2:14)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+2017-04-07T02:03:11.379Z - success: processon-statemachine loaded
+2017-04-07T02:03:11.379Z - normal: Watching packages
+2017-04-07T02:03:11.443Z - normal: Run Application
+2017-04-07T02:03:15.056Z - success: preview server running at http://localhost:7456
+2017-04-07T02:03:15.057Z - normal: Compiling scripts...
+2017-04-07T02:03:19.195Z - normal: Compiled project javascript file successfully
+2017-04-07T02:03:29.702Z - normal: 1.4.2
+2017-04-07T02:04:02.422Z - info: shutdown preview server
