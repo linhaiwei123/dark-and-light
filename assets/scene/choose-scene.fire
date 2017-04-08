@@ -127,9 +127,6 @@
       },
       {
         "__id__": 37
-      },
-      {
-        "__id__": 38
       }
     ],
     "_prefab": null,
@@ -219,7 +216,6 @@
       "__id__": 3
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 1
   },
@@ -307,7 +303,6 @@
       "__id__": 6
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 2
   },
@@ -395,7 +390,6 @@
       "__id__": 9
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 3
   },
@@ -483,7 +477,6 @@
       "__id__": 12
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 4
   },
@@ -571,7 +564,6 @@
       "__id__": 15
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 5
   },
@@ -659,7 +651,6 @@
       "__id__": 18
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 6
   },
@@ -747,7 +738,6 @@
       "__id__": 21
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 7
   },
@@ -835,7 +825,6 @@
       "__id__": 24
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 8
   },
@@ -923,7 +912,6 @@
       "__id__": 27
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 9
   },
@@ -1011,7 +999,6 @@
       "__id__": 30
     },
     "_enabled": true,
-    "_levelMask": null,
     "_sceneLoading": false,
     "level": 10
   },
@@ -1116,18 +1103,6 @@
     },
     "_fitWidth": false,
     "_fitHeight": true
-  },
-  {
-    "__type__": "98719JE1bdFb7HLpeSQkCz9",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "_levelMask": null,
-    "_sceneLoading": false,
-    "level": 0
   },
   {
     "__type__": "e0391SSN/9Ak6rz5ZEU6mbe",
